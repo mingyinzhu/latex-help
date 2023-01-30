@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmin}{arg\!min}
+\usepackage{float,graphicx}
+\usepackage{venndiagram}
+\usepackage{amssymb}
+\usepackage[center]{caption}
+
+\title{Problem Set 2}
+\author{[Name Here]}
+\date{[Date Here]}
+
+\begin{document}
+
+\maketitle
+
+\section*{Problem 3.4} Let $\hat{\textbf{e}}$ be the OLS residual from a regression of $\textbf{Y}$ on $\textbf{X}=[\textbf{X}_1\textbf{X}_2]$. Find $\textbf{X}'_2\hat{\textbf{e}}$.
+\\\\\textit{Answer.} 
+
+\section*{Problem 3.5} Let $\hat{\textbf{e}}$ be the OLS residual from a regression of $\textbf{Y}$ on $\textbf{X}$. Find the OLS coefficient from a regression of $\hat{\textbf{e}}$ on $\textbf{X}$.
+\\\\\textit{Answer.} 
+
+\section*{Problem 3.6} Let $\hat{\textbf{Y}}$ = $\textbf{X}$($\textbf{X}'\textbf{X})^{-1}\textbf{X}'\textbf{Y}$. Find the OLS coefficient from a regression of $\hat{\textbf{Y}}$ on $\textbf{X}$.
+\\\\\textit{Answer.}
+
+\section*{Problem 3.7} Show that if $\textbf{X}=[\textbf{X}_1\textbf{X}_2]$ then $\textbf{PX}_1=\textbf{X}_1$ and $\textbf{MX}_1=0$.
+\\\\\textit{Answer.} 
+
+\section*{Problem 3.8} Show that $\textbf{M}$ is idempotent: $\textbf{MM=M}$.
+\\\\\textit{Answer.} 
+
+\section*{Problem 3.11} Show that when $\textbf{X}$ contains a constant, $\frac{1}{n}\Sigma_{i=1}^n \hat{Y}_i = \Bar{Y}$.
+\\\\\textit{Answer.} 
+
+\section*{Problem 3.12} A dummy variable takes on only the values 0 and 1. It is used for categorical data, such as an individual’s gender. Let $\textbf{D}_1$ and $\textbf{D}_2$ be vectors of 1’s and 0’s, with the $i^{th}$ element of $\textbf{D}_1$ equaling 1 and that of $\textbf{D}_2$ equaling 0 if the person is a man, and the reverse if the person is a woman. Suppose that there are $n_1$ men and $n_2$ women in the sample. Consider fitting the following three equations by OLS:
+
+\begin{align}
+    \mathbf{Y} &= \mathbf{\mu + D_1\alpha_1 + D_2\alpha_2 + e} \tag{3.52}\\
+    \mathbf{Y} &= \mathbf{D_1\alpha_1 + D_2\alpha_2 + e}  \tag{3.53}\\
+    \mathbf{Y} &= \mathbf{\mu + D_1\Phi + e} \tag{3.54}
+\end{align}
+
+Can all three equations (3.52), (3.53), and (3.54) be estimated by OLS? Explain if not.
+
+\begin{enumerate}
+    \item[(a)] Compare regressions (3.53)and(3.54). Is one more general than the other?Explain the relationship between the parameters in (3.53) and (3.54).
+    \item[(b)] Compute $1'_nD_1$ and $1'_nD_2$, where $1_n$ is an n×1 vector of ones.
+\end{enumerate}\leavevmode
+\textit{Answer.} 
+
+\section*{Problem 3.16} Consider two least squares regressions
+
+\[\mathbf{Y} = \mathbf{X_1\Tilde{\beta_1} + \Tilde{e}}\]
+and 
+\[\mathbf{Y} = \mathbf{X_1\Tilde{\beta_1}+ X_2\Tilde{\beta_2} + \Tilde{e}}\]
+Let $R_1^2$ and $R_2^2$ be the R-squared from the two regressions. Show that $R_2^2 \geq R_1^2$. Is there a case (explain) when there is equality $R^2_2 = R_1^2$?
+\\\\\textit{Answer.} 
+
+\end{document}
