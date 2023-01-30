@@ -100,6 +100,74 @@
 
  \end{table}
 
+\begin{table}[h]
+\centering
+\ttabbox
+{ \caption{\label{Example3} Example 3}\label{tab:test}}
+{\begin{tabular}{cccccc}
+\\
+\hline
+
+   \centering
+  \begin{tabular}{ll}
+  \\
+  \hline
+       $\alpha$ & 4.712\\
+       $\delta$ &  189.320 \\
+       $\zeta$ & 0.219\\
+       &\\
+    \hline
+    \label{table:partb12}
+  \end{tabular}
+  &
+    \begin{tabular}{ll}
+    \multicolumn{2}{c}{minimum variance} \\
+  \hline
+       $R_{mv}$ & 0.025\\
+       $\sigma_{mv}$ & 0.0727\\
+        & \\
+        &\\
+    \hline
+    \label{table:partb12}
+  \end{tabular}
+
+  &
+    \begin{tabular}{ll}
+    \multicolumn{2}{c}{$\omega$ for b=2}\\
+  \hline
+       $\omega_1$ & 2.073\\
+       $\omega_2$ & -0.499\\
+       $\omega_3$& 0.625\\
+       $\omega_4$& -1.199\\
+    \hline
+    \label{table:partb12}
+  \end{tabular}
+  
+ &
+  \begin{tabular}{ll}
+  \multicolumn{2}{c}{$\omega$ for b=3.25}\\
+  \hline
+       $\omega_1$ & 1.276\\
+       $\omega_2$ & -0.307\\
+       $\omega_3$& 0.385\\
+       $\omega_4$& -0.354\\
+    \hline
+    \label{table:partb12}
+  \end{tabular}
+   &
+  \begin{tabular}{ll}
+  \multicolumn{2}{c}{$\omega$ for b=9}\\
+  \hline
+       $\omega_1$ &  0.461\\
+       $\omega_2$ & -0.111\\
+       $\omega_3$&  0.139\\
+       $\omega_4$& 0.511\\
+    \hline
+    \label{table:partb12}
+  \end{tabular}
+
+  \end{tabular}}
+  \end{table}
  
 \end{document}
 
