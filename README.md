@@ -9,3 +9,4 @@
 
 ## Random examples
 - Tables: examples on how to create basic table and multicol table
+- Matrices: example
